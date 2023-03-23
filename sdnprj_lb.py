@@ -8,8 +8,8 @@ app = Flask(__name__)
 lb_scheme=os.getenv('LB')
 # print(lb_scheme)
 
-server1='20.238.49.249'
-server2='52.138.220.51'
+server1='<ip_addr1>'
+server2='<ip_addr2>'
 
 if lb_scheme=='rr':
     rr_value=0
